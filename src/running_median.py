@@ -1,8 +1,5 @@
-class RollingMedian:
+class RunningMedian:
     """Class for calculating the rolling median of a stream of numbers.
-
-    Attributes:
-        median: Median of the items that have been added to the class.
 
     Notes:
         This implementation is not efficient and requires O(n) time to add a new item.
