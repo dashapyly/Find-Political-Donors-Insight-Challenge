@@ -14,8 +14,15 @@ class RunningMedian:
         Args:
             item: Item to add to the rolling median.
         """
-        self._data.append(item)
-        self._data.sort()
+        i = 0
+        inserted = False
+        while not inserted and i < len(self._data):
+            if self._data[i] >= item:
+                self._data.insert(i, item)
+                inserted = True
+            i += 1
+        if not inserted:
+            self._data.append(item)
 
     @property
     def median(self) -> float:
