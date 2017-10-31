@@ -9,6 +9,7 @@
 ## Unit tests
 
 The unit tests can be found in the `./tests` folder and can be ran using `python -m pytest ./tests`.
+More unit tests would be desirable.
 
 ## Implementation
 
