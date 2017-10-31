@@ -9,7 +9,7 @@ from typing import Iterator, Optional, Tuple, Dict
 
 import pandas as pd
 
-from running_median import RunningMedian as RunningMedian
+from running_median import RunningMedian
 
 logger = logging.getLogger(__name__)
 
