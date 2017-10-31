@@ -14,5 +14,4 @@ More unit tests would be desirable.
 ## Implementation
 
 Our approach uses the standard Python + Pandas stack for data analysis.
-We calculate the running median using two heaps because it scales better to large datasets than approaches which use
-a sorted list.
+We calculate the running median using two heaps because it scales better to large datasets than using a sorted list.
